@@ -41,13 +41,19 @@ const RegisterForm = () => {
             color='teal'
             textAlign='center'
           />
-          <Field name='username' component={TextInput} placeholder='Username' />
+          <Field 
+            name='username' 
+            component={TextInput} 
+            placeholder='Username' />
           <Field
             name='displayName'
             component={TextInput}
             placeholder='Display Name'
           />
-          <Field name='email' component={TextInput} placeholder='Email' />
+          <Field 
+            name='email' 
+            component={TextInput} 
+            placeholder='Email' />
           <Field
             name='password'
             component={TextInput}
