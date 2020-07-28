@@ -7,7 +7,7 @@ interface IProps {
 }
 
 const styles = {
-  bordercolor: 'orange',
+  borderColor: 'orange',
   borderWidth: 2
 }
 
